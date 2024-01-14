@@ -54,7 +54,7 @@ The output formats available are "Excel", "txt", and image. In addition, the ima
       - I recommend Visual Studio Code: [Visual Studio Code](https://code.visualstudio.com/)
 - **Install software packages and dependencies:**
   - Open Anaconda Prompt in the Plateaggrate folder.
-  - Change to the path (modify): `cd C:\Users\Path\to\Plateaggrate\Folder`
+  - Change to the path (modify): `cd C:\Users\path_to\plateaggrate_folder`
   - Follow instructions in the `requirements_plateaggrate_230121.txt` file (type in the Conda shell and hit enter):
     ```
     conda create -n plateaggrate_01 python=3.9.13 -y
@@ -62,4 +62,12 @@ The output formats available are "Excel", "txt", and image. In addition, the ima
     pip install -r requirements_plateaggrate_230121.txt
     ```
   - Wait until installation is complete.
+- **run plateaggrate:**
+  - Start a new bash window:
+    ```
+    cd C:\Users\path_to\plateaggrate_folder
+    conda activate plateaggrate_01
+    python plateaggrate.py
+    ```
+     
 
