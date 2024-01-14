@@ -35,12 +35,13 @@ The output formats available are "Excel", "txt", and image. In addition, the ima
 
 ## Installation of Plateaggrate
 
-- **Download from:** [Anaconda Distribution](https://www.anaconda.com/products/distribution)
+-  **Python and Anaconda Distribution installation**
+  - Download from: [Anaconda Distribution](https://www.anaconda.com/products/distribution)
   - Scroll down.
-  - Select the version.
+  - Select the version (e.g. windows, linux).
 - **Python Installation:**
   - Standard installation.
-  - Add Conda to PATH variable.
+  - Add Conda to PATH variable (recommended).
 - **Development Environment (optional):**
   - **Two options:**
     - 1: Without development environment (IDE)
